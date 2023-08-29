@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter snapshot testing / view 1`] = `
+Array [
+  <h3
+    data-testid="counter-header"
+  >
+    Counter (
+    0
+    )
+  </h3>,
+  <button
+    data-testid="increment"
+    onClick={[MockFunction]}
+  >
+    +
+  </button>,
+  <button
+    data-testid="decrement"
+    onClick={[MockFunction]}
+  >
+    -
+  </button>,
+]
+`;
+
+exports[`Counter snapshot testing / view 2`] = `
+Array [
+  <h3
+    data-testid="counter-header"
+  >
+    Counter (
+    12
+    )
+  </h3>,
+  <button
+    data-testid="increment"
+    onClick={[MockFunction]}
+  >
+    +
+  </button>,
+  <button
+    data-testid="decrement"
+    onClick={[MockFunction]}
+  >
+    -
+  </button>,
+]
+`;
+
+exports[`Counter snapshot testing 1`] = `
+Array [
+  <h3
+    data-testid="counter-header"
+  >
+    Counter (
+    0
+    )
+  </h3>,
+  <button
+    data-testid="increment"
+    onClick={[Function]}
+  >
+    +
+  </button>,
+  <button
+    data-testid="decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>,
+]
+`;
+
+exports[`Counter snapshot testing 2`] = `
+Array [
+  <h3
+    data-testid="counter-header"
+  >
+    Counter (
+    12
+    )
+  </h3>,
+  <button
+    data-testid="increment"
+    onClick={[Function]}
+  >
+    +
+  </button>,
+  <button
+    data-testid="decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>,
+]
+`;

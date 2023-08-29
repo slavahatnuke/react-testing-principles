@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterProvider snapshot by provider 1`] = `
+Array [
+  <h3
+    data-testid="counter-header"
+  >
+    Counter (
+    0
+    )
+  </h3>,
+  <button
+    data-testid="increment"
+    onClick={[Function]}
+  >
+    +
+  </button>,
+  <button
+    data-testid="decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>,
+]
+`;
+
+exports[`CounterProvider snapshot by provider 2`] = `
+Array [
+  <h3
+    data-testid="counter-header"
+  >
+    Counter (
+    10
+    )
+  </h3>,
+  <button
+    data-testid="increment"
+    onClick={[Function]}
+  >
+    +
+  </button>,
+  <button
+    data-testid="decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>,
+]
+`;
